@@ -16,6 +16,9 @@ trim_trailing_whitespace = false
 [*.cs]
 indent_size = 4
 
+# Disable all analyzers
+dotnet_analyzer_diagnostic.severity = none
+
 # Namespace settings
 csharp_style_namespace_declarations = file_scoped:warning
 
